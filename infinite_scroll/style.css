@@ -1,0 +1,25 @@
+li {
+  background-color: rgba(70,87,255,.08);
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  cursor: pointer;
+}
+li:hover {
+  background-color: rgba(70,87,255,.2);
+}
+
+.more {
+  text-align: center;
+  pointer-events:none;
+  position: relative;
+}
+
+.virtual {
+  position: absolute;
+  height: 220px;
+  top: -200px;
+  width: 100%;
+  pointer-event:none;
+  background-color: rgba(0,0,0,0.2);
+}
